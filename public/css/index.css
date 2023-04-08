@@ -69,6 +69,7 @@ body {
     }
 
     .navbar-links {
+        display: none;
         width: 100%;
     }
 
@@ -80,11 +81,9 @@ body {
     .navbar-links ul {
         width: 100%;
         flex-direction: column;
-        display: none;
     }
 
     .navbar-links li {
-        transform: scale(0%);
         text-align: center;
     }
 
@@ -92,11 +91,7 @@ body {
         padding: .5rem 1rem;
     }
 
-    .navbar-links.active ul {
+    .navbar-links.active {
         display: flex;
-    }
-
-    .navbar-links.active li {
-        transform: scale(100%);
     }
 }
