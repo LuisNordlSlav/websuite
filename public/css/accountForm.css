@@ -1,0 +1,28 @@
+.formLabel{
+    font-size: 100%;
+    margin: 2%;
+    padding-right: 0%;
+    font-family: "Font Awesome 5 Free";
+}
+
+.formLabel {
+    color: #aaa;
+}
+
+.formInput {
+    left: 5%
+}
+
+.form-sep {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 2%;
+    margin-right: 50%;
+}
+
+
+@media screen and (max-width: 600px) {
+    .form-control {
+        align-items: center;
+    }
+}

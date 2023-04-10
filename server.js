@@ -19,8 +19,12 @@ db.once('open', () => console.log("Connected to mongoose"))
 
 const indexRouter = require('./routes/index')
 const funnelRouter = require('./routes/funnel')
+const signupRouter = require('./routes/signup')
+const loginRouter = require('./routes/login')
 
 app.use('/', indexRouter)
 app.use('/funnel/', funnelRouter)
+app.use('/login', loginRouter)
+app.use('/signup', signupRouter)
 
 app.listen(process.env.PORT || 3000)
