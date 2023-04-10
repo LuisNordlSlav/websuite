@@ -24,6 +24,7 @@ body {
 .brand-title {
     font-size: 2rem;
     margin: .5rem;
+    padding-left: 2px;
     font-family: "Font Awesome 5 Free";
 }
 
@@ -101,4 +102,34 @@ body {
     .navbar-links.active {
         display: flex;
     }
+}
+
+.page-end {
+    display: flex;
+    margin-top: 80%;
+    margin-bottom: 0%;
+    align-items: center;
+    background-color: #222;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    color: #fff;
+    border-top-right-radius: .1rem;
+    border-top-left-radius: .1rem;
+}
+
+.page-end ol {
+    padding-top: 2%;
+    padding-left: 50%;
+    padding-right: 100%;
+    padding-bottom: 3%;
+}
+
+.page-end ol li a p {
+    color: white;
+    justify-content: column;
+    display: flex;
+    align-self: center;
+    align-content: center;
+    text-align: center;
+    text-shadow: #333 darkred;
 }
